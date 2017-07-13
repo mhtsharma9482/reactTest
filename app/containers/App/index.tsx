@@ -32,11 +32,11 @@ class App extends React.Component<IAppProps, {}> {
           <meta name="description" content="A React.js Boilerplate application" />
         </Helmet>
         <A className={styles.logoWrapper} href="https://twitter.com/mxstbr">
-          <Img className={styles.logo} src={Banner} alt="react-boilerplate - Logo"/>
+          {/*<Img className={styles.logo} src={Banner} alt="react-boilerplate - Logo"/>*/}
         </A>
         {this.props.children}
         <Login /><br />
-        <Footer />
+        {/*<Footer />*/}
       </div>
     );
   }
